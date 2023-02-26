@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
 
 body{
     margin: 0;
@@ -50,4 +51,50 @@ body{
 
 .title{
     padding-top: 240px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    color: #021718;
+}
+.text{
+    width: 418px;
+    margin-top: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+    color: #021718;
+}
+.button{
+    margin-top: 32px;
+    width: 196px;
+    height: 60px;
+    background-color: #01847F;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+    color: #FFFFFA;
+    transition: 0.4s ease-in-out;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #01847F;
+}
+
+.socials{
+    margin-top: 178px;
+    width: 451px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
