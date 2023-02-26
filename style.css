@@ -44,6 +44,8 @@ body{
     background-color: #F5A05C;
     background-repeat: no-repeat;
     background-position: right;
+    display: flex;
+    justify-content: space-between;
 }
 .description{
     margin-left: 120px;
@@ -97,4 +99,31 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.imgWrapper{
+    position: relative;
+}
+
+.mainImg{
+    position: absolute;
+    top: 127px;
+    right: 124px;
+    width: 500px;
+    height: 500px;
+    z-index: 1;
+    filter: drop-shadow(0px 24px 48px rgba(0, 0, 0, 0.5));
+    transition: 1s ease-in-out;
+}
+.mainImg:hover{
+    transform: rotate(-5.47deg);
+}
+
+.greenBox{
+    margin-right: 124px;
+    margin-top: 127px;
+    width: 500px;
+    height: 500px;
+    background-color: #44A1A0;
+    transform: rotate(-5.47deg);
 }
